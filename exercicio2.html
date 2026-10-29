@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 2</title>
+</head>
+<body>
+    <header>
+        <h1 style="text-align: center;">Formulário de Avaliação de Produto</h1>
+        <hr>
+    </header>
+    <main>
+        <form action="#" method="POST">
+            <br>
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome..." required>
+            <br>
+            <br>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Digite o email" required>
+            <br>
+            <br>
+            <label for="avaliacao">Avaliação</label>
+            <input type="number" id="avaliacao" name="avaliacao" placeholder="Digite à avaliação..." required>
+            <br>
+            <br>
+            <label for="comentario">Comentário</label>
+            <br>
+            <textarea name="comentario" id="comentario" rows="8" cols="50" placeholder="Digite um comentário..." required></textarea>
+            <br>
+            <br>
+            <label >Recomendaria</label>
+            <br>
+            <label for="sim">Sim</label>
+            <input type="radio" value="sim" id="sim" name="recomenda" required>
+            <br>
+            <label for="nao">Não</label>
+            <input type="radio" value="nao" id="nao" name="recomenda" required>
+            <br>
+            <br>
+            <label for="">Razão da Avaliação</label>
+            <select name="opcao" id="opcao" required>
+                <option value="" selected disabled>Selecione...</option>
+                <option value="elogio">Elogio</option>
+                <option value="critica">Crítica</option>
+            </select>
+            <br>
+            <br>
+            <label for="sugestao">Sugestão de Melhoria</label>
+            <br>
+            <textarea name="sugestao" id="sugestao" rows="8" cols="50" placeholder="Digite uma Sugestão..." required></textarea>
+            <br>
+            <br>
+            <label for="idade">Idade</label>
+            <input type="number" id="idade" name="idade" required>
+            <br>
+            <br>
+            <label>Gênero</label>
+            <br>
+            <label for="feminino">Feminino</label>
+            <input type="radio" value="feminino" id="feminino" name="genero" required>
+            <br>
+            <label for="masculino">Masculino</label>
+            <input type="radio" value="masculino" id="masculino" name="genero" required>
+            <br>
+            <br>
+            <label for="satisfacao">Satisfação do Produto</label>
+            <input type="range" id="satisfacao" name="satisfacao" required>
+            <br>
+            <br>
+            <label for="facilidade">facilidade de uso</label>
+            <input type="number" id="facilidade" name="facilidade" required>
+            <br>
+            <br>
+            <label for="qualidade">Qualidade do produto</label>
+            <input type="number" id="qualidade" name="qualidade" required>
+            <br>
+            <br>
+            <label for="preco">Preço</label>
+            <input type="number" id="preco" name="preco" required>
+            <br>
+            <br>
+            <label for="versao">Versão do Produto</label>
+            <input type="text" id="versao" name="versao" required>
+            <br>
+            <br>
+            <label for="localizacao">Localização</label>
+            <input type="text" id="localizacao" name="localizacao" required>
+            <br>
+            <br>
+            <label for="data">Data da compra</label>
+            <input type="date" id="data" name="data" required>
+            <br>
+            <br>
+            <label>Origem da compra</label>
+            <select name="origem" id="origem" required>
+                <option value="" selected disabled>Selecionar...</option>
+                <option value="brasil">Brasil</option>
+                <option value="eua">Estados Unidos</option>
+                <option value="china">china</option>
+            </select>
+            <br>
+            <br>
+            <label for="nivel">Nível de Satisfação</label>
+            <input type="range" id="nivel" name="nivel" required>
+            <br>
+            <br>
+            <button type="submit">ENVIAR</button>
+        </form>
+    </main>
+</body>
+</html>
